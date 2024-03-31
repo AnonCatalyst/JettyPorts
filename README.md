@@ -40,7 +40,3 @@ JettyPorts is a Python script designed to scan a target for open ports on a netw
 
 - **Timeout**: Adjust the timeout duration for port scanning by modifying the `timeout` parameter in the `port_scan_async` function.
 - **Port Range**: Modify the `start_port` and `end_port` parameters in the `port_scan_async` function to specify a custom port range.
-
-## License
-
-JettyPorts is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
