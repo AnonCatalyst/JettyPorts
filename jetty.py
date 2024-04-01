@@ -40,7 +40,7 @@ async def port_scan_async(target, start_port=1, end_port=65535, timeout=1):
     open_ports = []
     progress_bar = tqdm(total=end_port - start_port + 1, desc=f"{Fore.WHITE}Scanning Ports{Style.RESET_ALL}", unit="port")
     tasks = []
-    with concurrent.futures.ThreadPoolExecutor(max_workers=200) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=500) as executor:
         loop = asyncio.get_event_loop()
         for port in range(start_port, end_port + 1):
             task = loop.create_task(scan_port_async(target, port, progress_bar, timeout))
