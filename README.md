@@ -1,5 +1,7 @@
 # JettyPorts - Network Port Scanner
 
+ ☆ **NOTE:** ``Update 1.1 is in the making! What comes next? Decide if you wanna scan all possible ports or a select the range yourself and more 😉``
+
 "JettyPorts" is a robust Python tool specifically designed for swiftly scanning open ports on target systems, whether they are specified by IP address, hostname, or domain. Employing asyncio and concurrent.futures, JettyPorts excels in executing asynchronous port scans, ensuring optimal performance by concurrently probing multiple ports. Its intuitive interface boasts colorful and informative output, featuring emojis to denote scan results, thus enhancing user interaction and readability. Leveraging socket operations, JettyPorts meticulously assesses each port's accessibility, delivering prompt and accurate findings. Moreover, the tool gracefully handles interruptions, guaranteeing a seamless user experience. Named JettyPorts, this tool embodies versatility and efficiency, making it an invaluable asset for network administrators, cybersecurity professionals, and enthusiasts alike, seeking to fortify network security by identifying and addressing potential vulnerabilities efficiently.
 
 # JettyPorts Feature List
